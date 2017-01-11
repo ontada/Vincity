@@ -1,3 +1,6 @@
+//please contact me giaiphapthuonghieu.org@gmail.com
+//website http://giaiphapthuonghieu.vn or http://faceseo.vn
+
 (function($) {
     $.fn.linhnguyen = function(options) {        
         var defaults = {  
@@ -114,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='http://goo.gl/rKJWvA' target='_blank'><img src='https://3.bp.blogspot.com/-Nt1trczuizE/WG4UNGke0oI/AAAAAAAADSQ/sA9MANvnO0o5Ambpx1_GtTC2FbpKP0PnQCPcB/s1600/khu-can-ho-vincity-.jpg' width='500px'/><br/>13 Kỹ thuật đẩy top vượt trội</a>. Học tại nhà CEO Faceseo. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='http://goo.gl/rKJWvA' target='_blank'><img src='http://faceseo.vn/bannerweb/hoc-seo-chuyen-sau.jpg' width='500px'/><br/>13 Kỹ thuật đẩy top vượt trội</a>. Học tại nhà CEO Faceseo. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
